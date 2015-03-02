@@ -1,0 +1,131 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:#424242;
+}
+
+.left{
+	float:left;
+	padding: 10px;
+
+}
+#sc-widget{
+	display:none;
+}
+.tracklist{
+	padding: 5px;
+	border: 1px solid #BCBCBC;
+	width: 250px;
+	overflow: auto;
+	height:50%;
+	background-color: #E9E9E9;
+	color: #424242;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.line{
+	height:2px;
+	width:80%;
+	background-color: #BCBCBC;
+	margin:10px auto;
+}
+.sc{
+	position: relative;
+	width:24px;
+	height:24px;
+}
+
+.yt{
+	position: relative;
+	width:24px;
+	height:24px;
+}
+.title{
+	text-align: center;
+	font-size: 3em;
+	padding:10px 0;
+}
+.content{
+	width: 90%;
+	height: 95%;
+	margin: 2% auto;
+	vertical-align: center;
+}
+.tracklist li{
+	line-height: 1.5em;
+	width: 94%;
+	padding:5px 3%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#karel{
+	height: 30px;
+	padding: 0 5px;
+	border: 1px solid #BCBCBC;
+}
+
+#jos,#maria{
+	height: 30px;
+background: #FF9900;
+cursor: pointer;
+border: 1px solid #E28800;
+color:white;
+}
+
+#maria{
+	width: 100%;
+}
+
+#maria:disabled{
+	background: #FFCF88;
+	border: 1px solid #FFD089;
+	cursor: default;
+}
+.right{
+	float:right;
+}
+.track:hover{
+	cursor: pointer;
+}
+#player{
+	margin:20px auto;
+	padding: 30px;
+}
+@media screen and (max-width: 640px) {
+	#player{
+		width:100%;
+		margin:0;
+		padding:0;
+	}
+	.content{width: 100%; margin:0;}
+
+
+	.title{
+		font-size: 2em;
+	}
+}
+.active{
+	background-color: #FF9900;
+	color:white;
+}
+.updates{
+	clear:both;
+	margin: 30px 10px;
+}
+
+.updates h3{
+	font-size: 2em;
+	margin: 10px 0;
+}
+.updates p{
+	font-weight: 600;
+	margin:5px 0;
+
+}
+
+.updates li{
+	list-style-type:circle;
+	margin-left: 30px;
+}
