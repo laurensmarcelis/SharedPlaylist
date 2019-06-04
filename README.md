@@ -4,7 +4,7 @@ you can add any youtube link or soundcloud link to the list and it will save it 
 
 It will autoplay
 
-It will save your location in the list. SQo when you come back it starts fro mthat song and not the start
+It will save your location in the list. So when you come back it starts from that song and not the start
 
 When the list is complete it will just restart.
 
